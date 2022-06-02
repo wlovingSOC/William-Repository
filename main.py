@@ -1,15 +1,11 @@
-print("hello world!")
+print("hello world?")
 
 
-def isName(name):
+def isItName(name):
     x = name;
     x+="?"
     return x
 
-
-
 y = "William"
-
-z = isName(y)
-
+z = isItName(y)
 print(z)
